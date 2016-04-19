@@ -1,0 +1,175 @@
+/*=================================================
+	Back Ground - Color
+===================================================*/
+body {
+    background-color: #C0C0C0;
+}
+
+/*==================================================
+	Top Section - Navigation
+==================================================*/
+.topNav {
+	list-style-type: none;
+}
+/*nav links*/
+
+.topNav {
+	float: right;	
+	
+}
+.logo {		
+		float: left;
+		padding: 0px 40px;
+		padding-left: 0px		
+		
+}
+.topNav li{
+	list-style: none;	
+	float: right;
+	padding: 10px 50px 0 0;		
+	font-size:15px;
+}
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+/*Middle Section*/
+
+.about {
+	text-align: center;
+	width: 49%;
+	display: inline-block;
+	
+}
+.work {
+	text-align: center;
+	width: 49%;
+	display: inline-block;
+}
+@media (max-width: 1545px) {
+		.Sky img {
+			width: 95%;
+		}
+}
+@media (max-width: 901px) {
+		.topNav {
+			display: none;
+		}
+}
+@media (max-width: 901px) {
+		h2, h2 {
+			text-align: center;
+		}
+}
+.bottom {
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+/*CONTACT SECTION*/
+
+}
+.contact p {
+    color:  #7e8287;    
+}
+.contactForm {
+	background: #0B0B0B;
+	color: #7D8186;
+	padding: 25px 50px;
+}
+.contactForm input {
+	background: gray;
+	border: none;
+	border-bottom: 1px solid #7D8186;
+	text-align: center;
+	width: 49%;
+	height: 30px;
+	font-size: 24px;
+	color:#7D8186;
+}
+.contactForm textarea {
+	background: gray;
+	border: none;
+	border-top: 1px solid #7D8186;
+	border-bottom: 1px solid #7D8186;
+	text-align: center;
+	width: 49%;
+	font-size: 24px;
+	color:#7D8186;
+}
+.contactForm button {
+	clear: both;
+	border:none;
+	padding: 10px 35px;
+	color: #C71585; 
+	background-color: #CDC71D;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	-webkit-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+.contactForm button:hover {
+	background-color: #fff; 
+	color: #0B1016;
+	cursor: pointer;
+}
+
+.godzilla {
+	text-align: left;
+	width: 10%;
+	display: inline-block;	
+}
+.contactForm {
+	text-align: left;
+	width: 50%;
+	display: inline-block;
+}
+.socialIcons {
+		margin: 15px 0 50px
+}
+
+.socialIcons .fa-twitter {
+		background-color: #C71585;
+		padding: 5px 8px;
+		border-radius: 50%;
+		margin: 5px;
+}
+.socialIcons .fa-facebook {
+		background-color: #C71585;
+		padding: 5px 8px;
+		border-radius: 50%
+		margin: 5px;
+}
+.socialIcons .fa-google {
+		background-color: #C71585;
+		padding: 5px;
+		border-radius: 50%;
+		margin: 5px;
+}
+.socialIcons .fa-youtube {
+		background-color: #C71585;
+		padding: 5px 8px;
+		border-radius: 50%
+		margin: 5px;
+}
+.contactForm {
+	text-align: right;
+	width: 95%;
+	display: inline-block;	
+}
+.socialIcons {
+	text-align: left;
+	width: 95%;
+	display: inline-block;
+	padding: 0px 0px;
+}
+.Icons {
+	float:  right;
+	padding: 140px;
+}
+
+
